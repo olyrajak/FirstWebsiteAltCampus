@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+.header {
+    background-color: #07154c;
+    text-align: center;
+    padding: 20px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    margin: 00 20px;
+}
+
+header nav a.active {
+    color: rgb(163, 241, 85);
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    font-size: 30px;
+    margin: 50px 0px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 25px;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+
+.box {
+    width: 180px;
+    height: 180px;
+    background-color: #99d8ca;
+    border: 18px solid #5873e2;
+    border-radius: 3px;
+    box-shadow: 00px 1px 00px 7px #0d1430;
+}
+
+.box-container {
+    display: inline-block;
+    background-color: #90ffa9;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.color-inline {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.circle-container {
+    margin-top: 20px;
+    padding: 20px 0px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #0d1430;
+}
+
+.color-1 {
+    background-color: #99d8ca;
+}
+
+.color-2 {
+    background-color: #0d1430;
+}
+
+.color-3 {
+    background-color: #90ffa9;
+}
+
+.color-4 {
+    background-color: #5873e2;
+}
+
+hr {
+    width: 50%;
+    border: 1px dashed #807e7e;
+}
+
+.box-inline-container {
+    width: 600px;
+    border: 1px solid black;
+    margin: 20px auto;
+    font-size: 0;
+}
+
+.inline-box {
+    display: inline-block;
+    width: 190px;
+    height: 120px;
+    background-color: #dae0fa;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+img {
+    width: 100%;
+}
+
+.post-container {
+    width: 1100px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.section {
+    vertical-align: top;
+    width: 500px;
+    height: auto;
+    background-color: white;
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.heading {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #07154c;
+}
+
+.margin-top-20 {
+    margin: 20px 0px;
+}
+
+main {
+    margin: 40px 0px;
+}
+
+.read-more {
+    background-color: #19bb3d;
+    border-radius: 40px;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    padding-top: 15px;
+}
+
+.read-more a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    /* margin: 10px; */
+}
+
+.learn-more a {
+    font-size: 20px;
+    color: #19bb3d;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
