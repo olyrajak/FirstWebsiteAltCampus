@@ -96,16 +96,17 @@ hr {
 }
 
 .box-inline-container {
-    width: 600px;
+    width: 660px;
     border: 1px solid black;
     margin: 20px auto;
     font-size: 0;
+    border: 2px solid black;
 }
 
 .inline-box {
     display: inline-block;
-    width: 190px;
-    height: 120px;
+    width: 200px;
+    height: 180px;
     background-color: #dae0fa;
     box-sizing: border-box;
     margin: 5px;
@@ -134,6 +135,10 @@ img {
     margin: 10px 10px;
 }
 
+article {
+    display: inline-block;
+}
+
 .heading {
     font-size: 28px;
     line-height: 40px;
@@ -159,17 +164,37 @@ main {
     padding-top: 15px;
 }
 
-.read-more a {
+a {
     text-decoration: none;
     font-size: 20px;
-    color: #fff;
+    color: #f8fffa;
+    text-align: left;
+    margin-left: 1px;
     font-weight: bold;
     /* margin: 10px; */
 }
 
+.learnmore {
+    text-decoration: underline;
+    font-size: 24px;
+    color: #0dc735;
+    text-align: left;
+    font-weight: bold;
+    float: left;
+}
+
+h2 {
+    text-align: left;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 28px;
+}
+
 .learn-more a {
     font-size: 20px;
-    color: #19bb3d;
+    color: #eafbee;
     font-weight: bold;
 }
 
@@ -178,4 +203,5 @@ p {
     line-height: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: left;
 }
